@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86051DA51EC9A929006C42CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86051DA41EC9A929006C42CA /* main.m */; };
+		86051DA81EC9A929006C42CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86051DA71EC9A929006C42CA /* AppDelegate.m */; };
+		86051DAB1EC9A929006C42CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86051DAA1EC9A929006C42CA /* ViewController.m */; };
+		86051DAE1EC9A929006C42CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86051DAC1EC9A929006C42CA /* Main.storyboard */; };
+		86051DB11EC9A929006C42CA /* WiiRemoteBluetoothTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86051DAF1EC9A929006C42CA /* WiiRemoteBluetoothTest.xcdatamodeld */; };
+		86051DB31EC9A929006C42CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86051DB21EC9A929006C42CA /* Assets.xcassets */; };
+		86051DB61EC9A929006C42CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86051DB41EC9A929006C42CA /* LaunchScreen.storyboard */; };
+		86051DC11EC9A92A006C42CA /* WiiRemoteBluetoothTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86051DC01EC9A92A006C42CA /* WiiRemoteBluetoothTestTests.m */; };
+		86051DCC1EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86051DCB1EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86051DBD1EC9A929006C42CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86051D981EC9A929006C42CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86051D9F1EC9A929006C42CA;
+			remoteInfo = WiiRemoteBluetoothTest;
+		};
+		86051DC81EC9A92A006C42CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86051D981EC9A929006C42CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86051D9F1EC9A929006C42CA;
+			remoteInfo = WiiRemoteBluetoothTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86051DA01EC9A929006C42CA /* WiiRemoteBluetoothTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiiRemoteBluetoothTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86051DA41EC9A929006C42CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86051DA61EC9A929006C42CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86051DA71EC9A929006C42CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86051DA91EC9A929006C42CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86051DAA1EC9A929006C42CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86051DAD1EC9A929006C42CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86051DB01EC9A929006C42CA /* WiiRemoteBluetoothTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WiiRemoteBluetoothTest.xcdatamodel; sourceTree = "<group>"; };
+		86051DB21EC9A929006C42CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86051DB51EC9A929006C42CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86051DB71EC9A929006C42CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86051DBC1EC9A929006C42CA /* WiiRemoteBluetoothTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiiRemoteBluetoothTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86051DC01EC9A92A006C42CA /* WiiRemoteBluetoothTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiiRemoteBluetoothTestTests.m; sourceTree = "<group>"; };
+		86051DC21EC9A92A006C42CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86051DC71EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiiRemoteBluetoothTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86051DCB1EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiiRemoteBluetoothTestUITests.m; sourceTree = "<group>"; };
+		86051DCD1EC9A92A006C42CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86051D9D1EC9A929006C42CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86051DB91EC9A929006C42CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86051DC41EC9A92A006C42CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86051D971EC9A929006C42CA = {
+			isa = PBXGroup;
+			children = (
+				86051DA21EC9A929006C42CA /* WiiRemoteBluetoothTest */,
+				86051DBF1EC9A92A006C42CA /* WiiRemoteBluetoothTestTests */,
+				86051DCA1EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests */,
+				86051DA11EC9A929006C42CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86051DA11EC9A929006C42CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86051DA01EC9A929006C42CA /* WiiRemoteBluetoothTest.app */,
+				86051DBC1EC9A929006C42CA /* WiiRemoteBluetoothTestTests.xctest */,
+				86051DC71EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86051DA21EC9A929006C42CA /* WiiRemoteBluetoothTest */ = {
+			isa = PBXGroup;
+			children = (
+				86051DA61EC9A929006C42CA /* AppDelegate.h */,
+				86051DA71EC9A929006C42CA /* AppDelegate.m */,
+				86051DA91EC9A929006C42CA /* ViewController.h */,
+				86051DAA1EC9A929006C42CA /* ViewController.m */,
+				86051DAC1EC9A929006C42CA /* Main.storyboard */,
+				86051DB21EC9A929006C42CA /* Assets.xcassets */,
+				86051DB41EC9A929006C42CA /* LaunchScreen.storyboard */,
+				86051DB71EC9A929006C42CA /* Info.plist */,
+				86051DAF1EC9A929006C42CA /* WiiRemoteBluetoothTest.xcdatamodeld */,
+				86051DA31EC9A929006C42CA /* Supporting Files */,
+			);
+			path = WiiRemoteBluetoothTest;
+			sourceTree = "<group>";
+		};
+		86051DA31EC9A929006C42CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86051DA41EC9A929006C42CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86051DBF1EC9A92A006C42CA /* WiiRemoteBluetoothTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				86051DC01EC9A92A006C42CA /* WiiRemoteBluetoothTestTests.m */,
+				86051DC21EC9A92A006C42CA /* Info.plist */,
+			);
+			path = WiiRemoteBluetoothTestTests;
+			sourceTree = "<group>";
+		};
+		86051DCA1EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86051DCB1EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests.m */,
+				86051DCD1EC9A92A006C42CA /* Info.plist */,
+			);
+			path = WiiRemoteBluetoothTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86051D9F1EC9A929006C42CA /* WiiRemoteBluetoothTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86051DD01EC9A92A006C42CA /* Build configuration list for PBXNativeTarget "WiiRemoteBluetoothTest" */;
+			buildPhases = (
+				86051D9C1EC9A929006C42CA /* Sources */,
+				86051D9D1EC9A929006C42CA /* Frameworks */,
+				86051D9E1EC9A929006C42CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiiRemoteBluetoothTest;
+			productName = WiiRemoteBluetoothTest;
+			productReference = 86051DA01EC9A929006C42CA /* WiiRemoteBluetoothTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86051DBB1EC9A929006C42CA /* WiiRemoteBluetoothTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86051DD31EC9A92A006C42CA /* Build configuration list for PBXNativeTarget "WiiRemoteBluetoothTestTests" */;
+			buildPhases = (
+				86051DB81EC9A929006C42CA /* Sources */,
+				86051DB91EC9A929006C42CA /* Frameworks */,
+				86051DBA1EC9A929006C42CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86051DBE1EC9A929006C42CA /* PBXTargetDependency */,
+			);
+			name = WiiRemoteBluetoothTestTests;
+			productName = WiiRemoteBluetoothTestTests;
+			productReference = 86051DBC1EC9A929006C42CA /* WiiRemoteBluetoothTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86051DC61EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86051DD61EC9A92A006C42CA /* Build configuration list for PBXNativeTarget "WiiRemoteBluetoothTestUITests" */;
+			buildPhases = (
+				86051DC31EC9A92A006C42CA /* Sources */,
+				86051DC41EC9A92A006C42CA /* Frameworks */,
+				86051DC51EC9A92A006C42CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86051DC91EC9A92A006C42CA /* PBXTargetDependency */,
+			);
+			name = WiiRemoteBluetoothTestUITests;
+			productName = WiiRemoteBluetoothTestUITests;
+			productReference = 86051DC71EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86051D981EC9A929006C42CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rohan Hawthorne";
+				TargetAttributes = {
+					86051D9F1EC9A929006C42CA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K6ZGCJU877;
+						ProvisioningStyle = Automatic;
+					};
+					86051DBB1EC9A929006C42CA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K6ZGCJU877;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86051D9F1EC9A929006C42CA;
+					};
+					86051DC61EC9A92A006C42CA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K6ZGCJU877;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86051D9F1EC9A929006C42CA;
+					};
+				};
+			};
+			buildConfigurationList = 86051D9B1EC9A929006C42CA /* Build configuration list for PBXProject "WiiRemoteBluetoothTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86051D971EC9A929006C42CA;
+			productRefGroup = 86051DA11EC9A929006C42CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86051D9F1EC9A929006C42CA /* WiiRemoteBluetoothTest */,
+				86051DBB1EC9A929006C42CA /* WiiRemoteBluetoothTestTests */,
+				86051DC61EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86051D9E1EC9A929006C42CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86051DB61EC9A929006C42CA /* LaunchScreen.storyboard in Resources */,
+				86051DB31EC9A929006C42CA /* Assets.xcassets in Resources */,
+				86051DAE1EC9A929006C42CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86051DBA1EC9A929006C42CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86051DC51EC9A92A006C42CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86051D9C1EC9A929006C42CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86051DAB1EC9A929006C42CA /* ViewController.m in Sources */,
+				86051DA81EC9A929006C42CA /* AppDelegate.m in Sources */,
+				86051DB11EC9A929006C42CA /* WiiRemoteBluetoothTest.xcdatamodeld in Sources */,
+				86051DA51EC9A929006C42CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86051DB81EC9A929006C42CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86051DC11EC9A92A006C42CA /* WiiRemoteBluetoothTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86051DC31EC9A92A006C42CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86051DCC1EC9A92A006C42CA /* WiiRemoteBluetoothTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86051DBE1EC9A929006C42CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86051D9F1EC9A929006C42CA /* WiiRemoteBluetoothTest */;
+			targetProxy = 86051DBD1EC9A929006C42CA /* PBXContainerItemProxy */;
+		};
+		86051DC91EC9A92A006C42CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86051D9F1EC9A929006C42CA /* WiiRemoteBluetoothTest */;
+			targetProxy = 86051DC81EC9A92A006C42CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86051DAC1EC9A929006C42CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86051DAD1EC9A929006C42CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86051DB41EC9A929006C42CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86051DB51EC9A929006C42CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86051DCE1EC9A92A006C42CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86051DCF1EC9A92A006C42CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86051DD11EC9A92A006C42CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = WiiRemoteBluetoothTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rhawthorne.WiiRemoteBluetoothTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86051DD21EC9A92A006C42CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = WiiRemoteBluetoothTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rhawthorne.WiiRemoteBluetoothTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86051DD41EC9A92A006C42CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = WiiRemoteBluetoothTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rhawthorne.WiiRemoteBluetoothTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiiRemoteBluetoothTest.app/WiiRemoteBluetoothTest";
+			};
+			name = Debug;
+		};
+		86051DD51EC9A92A006C42CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = WiiRemoteBluetoothTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rhawthorne.WiiRemoteBluetoothTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiiRemoteBluetoothTest.app/WiiRemoteBluetoothTest";
+			};
+			name = Release;
+		};
+		86051DD71EC9A92A006C42CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = WiiRemoteBluetoothTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rhawthorne.WiiRemoteBluetoothTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WiiRemoteBluetoothTest;
+			};
+			name = Debug;
+		};
+		86051DD81EC9A92A006C42CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = WiiRemoteBluetoothTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rhawthorne.WiiRemoteBluetoothTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WiiRemoteBluetoothTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86051D9B1EC9A929006C42CA /* Build configuration list for PBXProject "WiiRemoteBluetoothTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86051DCE1EC9A92A006C42CA /* Debug */,
+				86051DCF1EC9A92A006C42CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86051DD01EC9A92A006C42CA /* Build configuration list for PBXNativeTarget "WiiRemoteBluetoothTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86051DD11EC9A92A006C42CA /* Debug */,
+				86051DD21EC9A92A006C42CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86051DD31EC9A92A006C42CA /* Build configuration list for PBXNativeTarget "WiiRemoteBluetoothTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86051DD41EC9A92A006C42CA /* Debug */,
+				86051DD51EC9A92A006C42CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86051DD61EC9A92A006C42CA /* Build configuration list for PBXNativeTarget "WiiRemoteBluetoothTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86051DD71EC9A92A006C42CA /* Debug */,
+				86051DD81EC9A92A006C42CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86051DAF1EC9A929006C42CA /* WiiRemoteBluetoothTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86051DB01EC9A929006C42CA /* WiiRemoteBluetoothTest.xcdatamodel */,
+			);
+			currentVersion = 86051DB01EC9A929006C42CA /* WiiRemoteBluetoothTest.xcdatamodel */;
+			path = WiiRemoteBluetoothTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86051D981EC9A929006C42CA /* Project object */;
+}
