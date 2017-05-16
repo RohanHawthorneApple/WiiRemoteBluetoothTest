@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CBCentralManagerDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextView *LogTextView;
+@property (strong, nonatomic) CBCentralManager *myCentralManager;
+@property (strong, nonatomic) NSMutableArray *discoveredPeripherals;
 
 @end
+
+
 
